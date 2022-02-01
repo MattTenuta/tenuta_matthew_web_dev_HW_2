@@ -12,12 +12,16 @@
    margin: 0 auto;
 }
 
+.colour {
+   background-color: rgb(253, 191, 119);
+}
+
     .center {
         text-align: center;
     }
 
     .pad {
-        padding: 1em;
+        padding: 10px;
     }
 
     .pad2 {
@@ -35,6 +39,7 @@
       font-weight: 400;
       line-height: 70px;
       margin: 5px 2px 0px 0px;
+      font-family: 'Times New Roman', Times, serif;
   }
 
   .dropCap2 {
@@ -42,16 +47,23 @@
    font-weight: 400;
    line-height: 70px;
    margin: 5px 2px 0px 0px;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .text {
-   font-size: 1.2em;
+   font-family: 'Murecho', Arial, sans-serif;
+   font-size: 1.4em;
    line-height: 1.2em;
 }
 
-.text2 {
-   font-size: 1.5em;
-   line-height: 1.2em;
+.heading {
+   line-height: 1em;
+   font-family: 'Abril Fatface', serif;
+   
+}
+
+.size {
+   font-size: 2em;
 }
 
 .floatImgLeft {
@@ -140,11 +152,7 @@ figcaption {
 
  nav li a:hover {
     padding-bottom: .5em;
-    border-bottom: 3px solid #ffb300;
- }
-
- .size {
-    font-size: 2em;
+    border-bottom: 3px solid #ff3a17;
  }
 
  /* _____________________________________
